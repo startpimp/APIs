@@ -19,4 +19,9 @@ The logs are writed like that : [hh:mm:ss] (text)<br><br>
 - The "hh" is the currents hours as 2 numbers<br>
 - The "mm" is the currents minutes as 2 numbers<br>
 - The "ss" is the currents seconds as 2 numbers<br><br>
-# 
+# 2DGAPI
+The 2DGAPI (2 dimensions games API) is an API were you can build some games.<br>
+You can create entities, the screen and, you have the cursorManager and the keyManager were you can manage all settings of the cursor and of the keys.<br>
+You can just create game for Windows.<br>
+This one is in developpement so if there are bugs or somethings else it's normal.<br><br>
+Some updates are planned !!
