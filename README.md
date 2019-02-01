@@ -19,3 +19,4 @@ The logs are writed like that : [hh:mm:ss] (text)<br><br>
 - The "hh" is the currents hours as 2 numbers<br>
 - The "mm" is the currents minutes as 2 numbers<br>
 - The "ss" is the currents seconds as 2 numbers<br><br>
+# 
