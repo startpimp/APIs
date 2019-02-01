@@ -18,6 +18,10 @@ public class FileManager {
 	 */
 	public static File getFile() {return file;}
 	private static void print(String text, boolean append) {try(PrintWriter p = new PrintWriter(new FileOutputStream(file, append))) {p.print(text);} catch(IOException e) {System.err.println("Cannot write in the file : "+e.getMessage());}}
+	/**
+	 * Print something in the saved file
+	 * @param text The text that were in the saved file
+	 */
 	public static void println(String text) {print(text+"\n", true);}
 	/**
 	 * Clear the entire of the file
