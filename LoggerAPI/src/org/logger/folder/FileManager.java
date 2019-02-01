@@ -12,7 +12,6 @@ public class FileManager {
 	public static void createLogsFolder(String name, String folderPath) {
 		File path = new File(folderPath);
 		File file = new File(folderPath+name+".txt");
-		System.out.println();
 		if(!file.exists()) {
 			path.mkdirs();
 			try {file.createNewFile();} catch (IOException e) {System.err.println("The file \""+name+"\" cannot be created : "+e.getMessage());}
